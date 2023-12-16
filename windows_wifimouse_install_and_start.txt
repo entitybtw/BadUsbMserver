@@ -1,5 +1,7 @@
 REM This script is installing and running a MouseServer Program
+DEFAULTDELAY 50
 GUI r
+DELAY 500
 STRING cmd
 ENTER
 STRING cd C:\Program Files (x86)
